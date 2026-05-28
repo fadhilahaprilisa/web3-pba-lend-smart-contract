@@ -332,3 +332,25 @@ Students can enhance this protocol by adding:
 ---
 
 *This contract is designed for educational purposes. For production use, additional security audits, liquidation mechanisms, and advanced features would be required.*
+---
+
+## 💻 My Implementation & Deployment Results
+
+This repository contains my personal hands-on execution of the PBA-Lend protocol as part of the Web3 Leadership short course component.
+
+### Verified Commands & Output
+During the local development phase in VS Code, I successfully compiled, tested, and simulated the deployment of these smart contracts using the **Foundry (Forge)** framework:
+
+1. **Compilation:** Successfully compiled the Solidity source code via `forge build`.
+2. **Automated Testing:** Executed the test suite using `forge test` which successfully passed all test sequences (including the 6-test, 7-test, and 5-test suites flawlessly).
+3. **Smart Contract Deployment:** Executed the deployment script to the Ethereum **Sepolia Testnet** with the following command:
+```bash
+   forge script script/Deploy/PBALend.s.sol -vvv
+Result: The terminal returned a script Ran successfully status, confirming a successful deployment simulation.
+
+Acknowledgements
+Student: Fadhilah Aprilisa
+
+Institution: Universitas Pamulang (Semester 4)
+
+Program: Web3 Leadership Short Course by Pelita Bangsa Academy
