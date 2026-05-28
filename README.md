@@ -346,3 +346,11 @@ During the local development phase in VS Code, I successfully compiled, tested, 
 3. **Smart Contract Deployment:** Executed the deployment script to the Ethereum **Sepolia Testnet** with the following command:
 ```bash
    forge script script/Deploy/PBALend.s.sol -vvv
+```
+Result: The terminal returned a script Ran successfully status, confirming a successful deployment simulation and updating the root network environment configurations.
+
+🎓 Project Acknowledgements
+Student Practitioner: Fadhilah Aprilisa
+Academic Institution: Universitas Pamulang (Semester 4)
+Program Activity: Final Project - Web3 Leadership Short Course
+Organizer: Pelita Bangsa Academy
